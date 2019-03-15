@@ -23,10 +23,11 @@ html {
     padding-top: 1rem;
     display: flex;
     flex-direction: row;
-    
+    font-size: 0.8rem;
     position: relative;
     
     top: 2rem;
+    
 }
 
 #navbar-custom {
@@ -34,21 +35,24 @@ html {
     background-color: white;
     padding: .2rem 1.4rem;
     border-radius: 1.3rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+#climbing {
+  padding-right: 2rem;  
+}
+
+ .nav-link {
     
+     color: rgb(0, 64, 128)!important;
 }
 
-/*
-.card {
-    border-color: brown;
-    padding: 1rem;
-    border: solid;
-    flex-grow: 3;
-    height: 3rem;
-    width: 10rem;
+.justify-content-end {
+    margin-left: 12rem;
 }
 
+#twitter-icon {
 
-.row-block {
-    display: flex;
-    flex-grow: 1;
-}*/
+    padding: .5rem 0rem;
+    margin: 0rem;
+}
+
