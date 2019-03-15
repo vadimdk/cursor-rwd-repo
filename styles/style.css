@@ -1,0 +1,54 @@
+html {
+    font-size: 20px;
+}
+
+.sign-in {
+    background-image: url('../img/bg.jpg');
+    height: 90vh;
+}
+
+
+
+
+
+.footer-block {
+    background-color: white;
+    height: 60vh;
+}
+
+.row {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    
+    position: relative;
+    
+    top: 2rem;
+}
+
+#navbar-custom {
+    background-color: white;
+    background-color: white;
+    padding: .2rem 1.4rem;
+    border-radius: 1.3rem;
+    
+}
+
+/*
+.card {
+    border-color: brown;
+    padding: 1rem;
+    border: solid;
+    flex-grow: 3;
+    height: 3rem;
+    width: 10rem;
+}
+
+
+.row-block {
+    display: flex;
+    flex-grow: 1;
+}*/
