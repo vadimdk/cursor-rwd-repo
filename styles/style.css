@@ -40,8 +40,8 @@ html {
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 #climbing {
-  padding-right: 0rem;  
-  padding-left: 1rem;
+    padding-right: 0rem;  
+    padding-left: 1rem;
 }
 
  .nav-link {
@@ -76,4 +76,8 @@ html {
 .footer-block {
     background-color: white;
     height: 60vh;
+}
+
+#test {
+    background: red;
 }
