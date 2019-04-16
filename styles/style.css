@@ -4,7 +4,7 @@ html {
 
 .sign-in {
     background-image: url('../img/bg.jpg');
-    height: 90vh;
+    height: 60vh;
 }
 
 
@@ -75,7 +75,7 @@ html {
 
 .footer-block {
     background-color: white;
-    height: 60vh;
+    height: 40vh;
 }
 
 #smalltext {
@@ -84,7 +84,24 @@ html {
     font-family: 'Lora', serif;
 } 
 
+/*
 #test {
     background: red;
 }
+*/
 
+@media (max-width: 790px) {
+    .justify-content-ipad-center {
+        justify-content: center;
+    
+    }
+    .sign-in {
+    
+    height: 55vh;
+}
+    .footer-block {
+    
+    height: 30vh;
+}
+    
+}
