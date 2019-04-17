@@ -2,12 +2,19 @@ html {
     font-size: 20px;
 }
 
+
+
 .sign-in {
     background-image: url('../img/bg.jpg');
-    height: 60vh;
+    min-height: 550px;
+    
 }
 
-
+.footer-block {
+    background-color: white;
+    height: 50vh;
+    
+}
 
 
 
@@ -73,17 +80,17 @@ html {
 
 
 
-.footer-block {
-    background-color: white;
-    height: 40vh;
-}
+
 
 #smalltext {
     font-size: .8rem;
     @import url('https://fonts.googleapis.com/css?family=Lora');
     font-family: 'Lora', serif;
 } 
-
+#text-color-blue {
+    font-family: 'Lora', serif;
+    color: rgb(0, 64, 128)!important; 
+}
 /*
 #test {
     background: red;
@@ -101,7 +108,11 @@ html {
 }
     .footer-block {
     
-    height: 30vh;
+    height: 20vh;
 }
     
+}
+
+#btn-color {
+    background-color: rgb(0, 64, 128);
 }
